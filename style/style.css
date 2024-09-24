@@ -11,6 +11,20 @@
     --text-preset-3-bold: 0.88rem;
 
 }
+a {
+    text-decoration: none;
+}
+.card__image {
+    width: 100%;
+    border-radius: 0.7rem;
+}
+.card__tag-btn {
+    background-color: var(--Variablecollection-color-yellow);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: var(--Variablecollection-color-gray-950);
+
+}
 body {
     background-color: var(--Variablecollection-color-yellow);
     height: 100vh;
@@ -21,9 +35,17 @@ body {
 }
 .container_main {
     background-color: var(--Variablecollection-color-white);
+    border: 0.1rem solid var(--Variablecollection-color-gray-950);
     display: flex;
     padding: 1rem;
     width: 34rem;
-    height: 30rem;
+    height: auto;
+    border-radius: 1rem;
 }
-
+.footer-contaoner {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--Variablecollection-color-white);
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0 ;
+}
