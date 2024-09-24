@@ -21,6 +21,7 @@ a {
 .card__tag-btn {
     background-color: var(--Variablecollection-color-yellow);
     padding: 0.5rem 1rem;
+    display: ;
     border-radius: 0.5rem;
     color: var(--Variablecollection-color-gray-950);
 
