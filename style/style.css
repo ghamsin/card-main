@@ -1,0 +1,29 @@
+:root {
+    --Variablecollection-color-yellow: #F4D04E;
+    --Variablecollection-color-white: #FFFFFF;
+    --Variablecollection-color-gray-500: #6B6B6B;
+    --Variablecollection-color-gray-950: #111111;
+    /* Text-size styles */
+    /* base size: text-preset-2 (16px) */
+    --text-preset-1: 1.5rem;
+    --text-preset-2: 1rem;
+    --text-preset-3: 0.88rem;
+    --text-preset-3-bold: 0.88rem;
+
+}
+body {
+    background-color: var(--Variablecollection-color-yellow);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container_main {
+    background-color: var(--Variablecollection-color-white);
+    display: flex;
+    padding: 1rem;
+    width: 34rem;
+    height: 30rem;
+}
+
