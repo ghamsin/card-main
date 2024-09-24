@@ -27,6 +27,7 @@ a {
 
 }
 body {
+    font-family: "Figtree", sans-serif;
     background-color: var(--Variablecollection-color-yellow);
     height: 100vh;
     display: flex;
@@ -39,7 +40,7 @@ body {
     border: 0.1rem solid var(--Variablecollection-color-gray-950);
     display: flex;
     padding: 1rem;
-    width: 34rem;
+    width: 25rem;
     height: auto;
     border-radius: 1rem;
 }
